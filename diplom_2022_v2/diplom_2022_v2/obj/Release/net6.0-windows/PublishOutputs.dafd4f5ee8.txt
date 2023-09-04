@@ -1,0 +1,6 @@
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\diplom_2022_v2.exe
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\diplom_2022_v2.dll
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\diplom_2022_v2.deps.json
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\diplom_2022_v2.runtimeconfig.json
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\diplom_2022_v2.pdb
+C:\Users\kapus\source\repos\diplom_2022_v2\diplom_2022_v2\bin\Release\net6.0-windows\publish\Guna.UI2.dll

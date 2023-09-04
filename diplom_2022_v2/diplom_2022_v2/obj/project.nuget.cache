@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4C4hEgVWzR/+91cvFaHVPXEo/1ZMpzeVvczuIa3RjwNOMuda8vljYQmFn8X5Hhdb7DFqbZK045DTb1EutJjLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kapus\\Desktop\\флешка\\диплом\\diplom_2022_v2\\diplom_2022_v2\\diplom_2022_v2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kapus\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.2\\guna.ui2.winforms.2.0.3.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Guna.UI2.WinForms 2.0.3.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Guna.UI2.WinForms",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
