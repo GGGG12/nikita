@@ -1,0 +1,49 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20Uber
+URL: https://api.qiwi.com/partner/bill/v1/bills/%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20100%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20Uber
+Code: 404 Not Found
+Method: GET
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept:         */*
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.23.0
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InZpY2Vzei0wMCIsInVzZXJfaWQiOiI3OTIwNDE0MDkxOSIsInNlY3JldCI6IjU2N2UyYTc4ZGQ2MzY2MjBhODVhZGNkOTk5ZTdmM2FkNTVkN2Q3ODYwZTcwYzJiMjk4NzRmMTAzNzdhZTQwOTAifX0=
+Cookie:         auth_ukafokfuabbuzdckyiwlunsh=MDA5fF98X3xUCn8oAHZcQBoRMiYhZVNVL094dFkAVn5QMG5dF11QNCNTDyFuS3BVAw1XTF9fZwhndl99aicHYH4be3YKYmMHVw1kdAJ3XFVUR2F2IixRW39DNylCUANlA2NvWkELUg==
+
+########### CONTENT ############
+
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Fri, 04 Nov 2022 10:05:21 GMT
+Content-Type:   application/json
+Content-Length: 206
+Connection:     keep-alive
+Cache-Control:  no-cache, no-store
+X-B3-SpanId:    f27fe5ad7c59f25c
+X-B3-SpanId:    e10219673a6015f3
+X-Edge-Proxied-Response: true
+Expires:        Thu, 01 Jan 1970 00:00:00 GMT
+X-B3-ParentSpanId: 8fce4cf2ede80223
+X-B3-TraceId:   775e7eb53f060547
+content-encoding: gzip
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+
+########### CONTENT ############
+{"serviceName":"payin-invoicing-api","errorCode":"api.invoice.not.found","description":"—чЄт не найден","userMessage":"—чЄт не найден","dateTime":"2022-11-04T13:05:21.659+03:00","traceId":"775e7eb53f060547"}
+######### END CONTENT ##########
+

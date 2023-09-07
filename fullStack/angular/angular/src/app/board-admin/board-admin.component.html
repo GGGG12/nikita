@@ -1,0 +1,27 @@
+<div class="container">
+  <header class="jumbotron">
+
+
+    <!-- <p *ngFor="let item of users">
+      {{item.username}}</p> -->
+  <div class="col-md-6">
+    <h4>Список пользователей</h4>
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let tutorial of users; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setActiveTutorial(tutorial, i)"
+      >
+        {{ tutorial.username }}
+      </li>
+    </ul>
+  </div>
+
+  <P></P>
+  <button class="m-3 btn btn-sm btn-danger" (click)="deleteTutorial()">
+    Удалить выбранного пользователя
+  </button>
+  </header>
+
+</div>

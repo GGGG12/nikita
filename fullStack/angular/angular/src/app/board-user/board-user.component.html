@@ -1,0 +1,71 @@
+<div class="container">
+  <header class="jumbotron">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  <p><b>Время на скаде: {{ rxTime | date:'medium':'+0530'}}</b></p>
+  <div class="stockDetails">
+    <div *ngFor="let item of usAddress">
+    
+  <table class="table">
+    <thead>
+      <tr>
+        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+        <strong> Ваш личный адрес в США </strong>
+       
+      </tr>
+      <tr>
+          <th>Email </th>
+          <th>{{ currentUser.email }} <button class="btn" (click)="copyMessage(currentUser.email)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button> </th>
+   
+                  </tr>
+                  <th>
+                      Street address
+                  </th>
+                  <th>
+                    {{item.address}}  <button class="btn" (click)="copyMessage(item.address)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+                  </th>
+                  <tr>
+                   
+                      <th>
+                        City
+                      </th>
+                      <th>
+                        {{item.city}}  <button class="btn" (click)="copyMessage(item.city)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+                      </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      Phone  
+                    </th>
+                    <th>{{item.phone}} <button class="btn" (click)="copyMessage(item.phone)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+                  </th>
+                </tr>
+
+                  <tr>
+                    <th>
+                      State
+                    </th>
+                    <th>
+                      {{item.state}}  <button class="btn" (click)="copyMessage(item.state)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      Zip
+                    </th>
+                    <th>
+                      {{item.zip}} <button class="btn" (click)="copyMessage(item.zip)" value="click to copy"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+                    </th>
+                  </tr>
+                 
+    </thead>
+  </table>
+    </div>
+</div>
+<!-- <p>{{usAddress | json}}</p> -->
+
+
+
+  </header>
+
+</div>

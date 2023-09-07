@@ -1,0 +1,49 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20%D0%BD%D0%B0%2050%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8
+URL: https://api.qiwi.com/partner/bill/v1/bills/%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B0%20%D0%BD%D0%B0%2050%20%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8
+Code: 404 Not Found
+Method: GET
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept:         */*
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.23.0
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InZpY2Vzei0wMCIsInVzZXJfaWQiOiI3OTIwNDE0MDkxOSIsInNlY3JldCI6IjU2N2UyYTc4ZGQ2MzY2MjBhODVhZGNkOTk5ZTdmM2FkNTVkN2Q3ODYwZTcwYzJiMjk4NzRmMTAzNzdhZTQwOTAifX0=
+Cookie:         auth_ukafokfuabbuzdckyiwlunsh=MDAyfF98X3xcX2VaH3h8KWx1Q1EgVVksWntkWFp7cH9GZ1pkeFUrXVRRAl1+e09vQ0lCW3FQZXItHG1CVgBWfWRAZ38CXmAODQN8ABwqL2dzdhZccR1cKwgnKgBPenNkRG1daHlUfQ==
+
+########### CONTENT ############
+
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Mon, 07 Nov 2022 22:06:31 GMT
+Content-Type:   application/json
+Content-Length: 204
+Connection:     keep-alive
+Cache-Control:  no-cache, no-store
+X-B3-SpanId:    d111009a48d9089d
+X-B3-SpanId:    c64bf289b44a0284
+X-Edge-Proxied-Response: true
+Expires:        Thu, 01 Jan 1970 00:00:00 GMT
+X-B3-ParentSpanId: b3633c2299957b0b
+X-B3-TraceId:   ef6360e56c4171b6
+content-encoding: gzip
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+
+########### CONTENT ############
+{"serviceName":"payin-invoicing-api","errorCode":"api.invoice.not.found","description":"—чЄт не найден","userMessage":"—чЄт не найден","dateTime":"2022-11-08T01:06:31.3+03:00","traceId":"ef6360e56c4171b6"}
+######### END CONTENT ##########
+

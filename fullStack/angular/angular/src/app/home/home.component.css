@@ -1,0 +1,50 @@
+.fig {
+    width: 50vw; height: 50vh
+   }
+
+   .lit{
+    color: rgb(106, 106, 221);
+    text-align:left;
+    margin-top: 50px;
+    padding-left: 15px;
+    font-size: 4em;
+    line-height:normal;
+    font-weight:900;
+  
+}
+.pclass{
+    text-align: left;
+    margin-top: auto;
+    padding-left: 15px;
+    line-height:normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: right;
+
+}
+/* .photo {
+    width:auto;
+    position:absolute;
+    top: 25%;
+    right:0%;
+    transform: translate(-50%, -50%);
+   
+} */
+.photo{   position:absolute;
+    top: 100px;
+    left: 700px;
+    display: flex;
+    
+    
+
+}
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #41484e; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin-top: 15px;
+   }
